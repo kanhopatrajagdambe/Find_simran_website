@@ -1,0 +1,402 @@
+
+/* -------------------------------------- our menu style 
+  --------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: white;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    --main-color: #283526;
+    --primry-color: #888888;
+    --button-background: #4b709e;
+    --primary-button-background: #fe7649;
+    --background-color: #f0f7ff;
+  }
+  
+  h1,
+  h2 {
+    font-family: 'sans-serif';
+    color: var(--main-color);
+  }
+  
+  h4,
+  h3 {
+    font-family: "muli";
+    color: var(--main-color);
+  }
+  
+  h3 {
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+  }
+  
+  p,
+  a,
+  li,
+  button {
+    font-family: "muli";
+    color: var(--primry-color);
+  }
+  
+  p {
+    font-size: 2rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  button {
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    background-color: rgb(75, 157, 160);
+    color: black;
+  }
+  /* -------------------------------------- our Header style
+  --------------------------------------------------------------------------- */
+  header {
+    padding: 0 20rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+  }
+  
+  header nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: #e2efff; */
+  }
+  
+  
+  header nav .menu a img {
+    
+    width: 13rem;
+    height: 5.7rem;
+   
+  }
+  
+  header nav .menu .sub-menu {
+    height: inherit;
+    display: flex;
+    position: relative;
+    z-index: 99;
+  }
+  
+  header nav .menu .sub-menu a {
+    margin-right: 6rem;
+    
+   
+  }
+  
+  header nav .menu .sub-menu a li {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    transition: all 0.2s;
+  }
+  
+  header nav .menu .sub-menu a li:hover {
+    color: var(--button-background);
+  }
+  
+  /* right side menu css style  */
+   /* -------------------------------------- oursection-1 css style 
+  --------------------------------------------------------------------------- */
+  .main-hero-section {
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  
+  .main-hero-section .hero-left-side {
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .main-hero-section h1 {
+    width: 80rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+    text-transform: capitalize;
+  }
+  
+  .main-hero-section p {
+    margin-bottom: 8rem;
+    width: 45rem;
+    
+  }
+  
+  .main-hero-section a img {
+    width: 12rem;
+    height: 3rem;
+  }
+  
+  .main-hero-section {
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  
+  .main-hero-section .hero-left-side {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .main-hero-section h1 {
+    width: 85rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+    text-transform: capitalize;
+  }
+  
+  .main-hero-section p {
+    margin-bottom: 8rem;
+    width: 45rem;
+  }
+  
+  .main-hero-section a img {
+    width: 13.5rem;
+    height: 4rem;
+  }
+  
+  .main-hero-section .button-group .appStore {
+    height: 4.3rem;
+    margin-bottom: -0.4rem;
+  }
+  
+  .main-hero-section .button-group a:first-child {
+    margin-right: 2.5rem;
+  }
+
+   /* ------------------- our hero right side css style 
+  ------------------------------------ */
+  .main-hero-section .hero-right-side {
+    width: 30%;
+    height: 90vh;
+    position: relative;
+    right: 0;
+    top:3rem;
+    border-radius: 90px 20px 0px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-hero-section .hero-right-side img {
+    width: 75rem;
+    height: 79rem;
+    margin-right: 43rem;
+  }
+
+   /* ------------------- our 2nd section left side css style 
+  ------------------------------------ */
+
+
+  
+  .section-third {
+    width: 100%;
+    height: 70rem;
+    
+    padding: 3rem 20rem;
+  }
+  
+  .section-third h2 {
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .section-third p {
+    width: 40rem;
+    height: 9rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  .section-third .section-third-task {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4rem;
+  }
+  
+  .section-third .section-third-task .task-1,
+  .section-third .section-third-task .task-2,
+  .section-third .section-third-task .task-3 {
+    padding-top: 2rem;
+    /* background: cornsilk; */
+    text-align: center;
+    transition: all 0.3s linear;
+    border-radius: 2rem;
+  }
+  
+  .section-third .section-third-task .task-1 h3,
+  .section-third .section-third-task .task-2 h3,
+  .section-third .section-third-task .task-3 h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: 2rem;
+  }
+  
+  .section-third .section-third-task .task-1 img,
+  .section-third .section-third-task .task-2 img,
+  .section-third .section-third-task .task-3 img {
+    width: 15rem;
+    height: 16rem;
+    transition: all 0.3s;
+  }
+  
+  .section-third .section-third-task .task-1 img,
+  .section-third .section-third-task .task-2 img {
+    height: 8rem;
+    width: 8rem;
+  }
+  
+  .section-third .section-third-task .task-3,
+  .section-third .section-third-task .task-1,
+  .section-third .section-third-task .task-2 {
+      height:35rem;
+    background: #fff;
+    box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+  }
+  
+ /* ------------------- our 3nd section left side css style 
+  ------------------------------------ */
+  .hero-right-side .box{
+        height:40%;
+        width: 90%;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 25px 18px 18px rgb(75, 157, 160);
+  }
+  .hero-right-side .box table{
+      height: 18rem;
+      width: 50%;
+      font-size: 4rem;
+
+  }
+  .hero-right-side .box table caption{
+      font-weight: bold;
+      text-align: center;
+
+  }
+  .hero-right-side .box table tbody tr{
+         margin: 30px;
+         padding: 30px;
+  }
+
+ 
+  .hero-right-side .box table tbody img{
+         width: 40px;
+         height: 40px;
+         margin-left:0px;
+         margin-right: 90%;
+        
+         margin-bottom: 20px;
+         position:absolute;
+         border-radius:20px;
+  }
+
+  .hero-right-side .box table tbody  td p  {
+    font-weight: bold;
+    margin-left:0px;
+   margin-bottom: 20px;
+    margin-right: 80%;
+    position: absolute;
+    margin-bottom:40px ;
+    margin-bottom: 20px;
+      
+  }
+
+  /* ------------------- our 4nd section left side css style 
+  ------------------------------------ */
+  .main-hero-section4 {
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  .main-hero-section .hero-right-side2 {
+    width: 70%;
+    height: 40vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .main-hero-section5  .hero-left-side2 .box{
+    height:40%;
+    width: 30%;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 25px 18px 18px rgb(75, 157, 160);
+}
+
+
+  
+  
+ 
+  
+  
